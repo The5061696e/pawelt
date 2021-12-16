@@ -1,1 +1,1 @@
-# pt
+# No cóż, o to zadanie.
