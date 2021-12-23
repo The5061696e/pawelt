@@ -1,0 +1,20 @@
+using System;
+
+namespace zadanie_drugie_punkt_2_podpunkt_a
+// s to silnia, l to liczba
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Wpisz liczbe, a program obliczyć dla niej silnie (mam nadzieje)");
+            int l = Convert.ToInt32(Console.ReadLine());
+            int s = 1;
+            for (int i = 1; i <= l; i++)
+            {
+            s *= i;
+            Console.WriteLine(s);
+            }
+        }
+    }
+}
