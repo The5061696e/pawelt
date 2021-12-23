@@ -19,7 +19,8 @@ namespace zadanie_drugie_punkt_3_podpunkt_a
 
                 Console.WriteLine(l1 - l2);
 
-            }else if(z == '+')
+            }
+            else if(z == '+')
             {
                 Console.WriteLine(l1 + l2);
             }
